@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('/components/avatar/avatar.css');
+@import url('/components/alert/alert.css');
+
 :root{
     --primary-color : #204E4A ;
     --secondary-color: #81C14B ;
@@ -6,16 +11,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
 .layout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
-}
-
-.avatar{
-    width: 100%;
-    height: auto;
-    border: 2px solid var(--secondary-color);
-    border-radius: 50%;
 }
