@@ -4,12 +4,15 @@
 @import url('/components/alert/alert.css');
 @import url('/components/buttons/btn-primary.css');
 @import url('/components/buttons/btn-link.css');
-@import url('/components/avatar/avatar-badge.css');
+@import url('/components/avatar/avatar-badge-active.css');
+@import url('/components/avatar/avatar-badge-busy.css');
 @import url('/components/buttons/btn-float.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
     --secondary-color: #BFDBFE;
+    /* --secondary-color: #FEF3C7; */
+    /* --secondary-color: #EFF6FF; */
 }
 
 *{

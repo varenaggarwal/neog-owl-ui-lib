@@ -1,11 +1,11 @@
-.avatar-badge > img{
+.avatar-badge-active > img{
     width: 100%;
     height: auto;
     border: 2px solid var(--secondary-color);
     border-radius: 50%;
 
 }
-.avatar-badge > div {
+.avatar-badge-active > div {
     position: relative;
     top: -20%;
     left: 80%;
