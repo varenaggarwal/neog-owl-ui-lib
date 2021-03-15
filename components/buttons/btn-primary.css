@@ -7,4 +7,5 @@
     margin: 1rem 0.5rem;
     cursor: pointer;
     font-size: large;
+    border: 2px solid var(--primary-color);
 }

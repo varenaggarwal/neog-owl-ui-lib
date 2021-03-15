@@ -5,3 +5,12 @@
     border-radius: 50%;
 
 }
+.avatar-badge > div {
+    position: relative;
+    top: -20%;
+    left: 80%;
+    background-color: greenyellow;
+    width: 15%;
+    height: 15%;
+    clip-path: circle();
+}
