@@ -1,7 +1,7 @@
-.avatar  > img{
+.avatar-badge > img{
     width: 100%;
     height: auto;
     border: 2px solid var(--secondary-color);
     border-radius: 50%;
-}
 
+}

@@ -1,21 +1,26 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import url('/components/avatar/avatar.css');
 @import url('/components/alert/alert.css');
+@import url('/components/buttons/btn-primary.css');
+@import url('/components/buttons/btn-link.css');
+@import url('/components/avatar/avatar-badge.css');
+
 
 :root{
-    --primary-color : #204E4A ;
-    --secondary-color: #81C14B ;
+    --primary-color : rgb(10, 25, 47) ;
+    --secondary-color: #BFDBFE;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .layout{
+    background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
 }
