@@ -1,0 +1,10 @@
+.btn-primary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 0;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+    font-size: large;
+}
