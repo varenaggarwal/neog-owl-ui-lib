@@ -5,7 +5,7 @@
 @import url('/components/buttons/btn-primary.css');
 @import url('/components/buttons/btn-link.css');
 @import url('/components/avatar/avatar-badge.css');
-
+@import url('/components/buttons/btn-float.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
