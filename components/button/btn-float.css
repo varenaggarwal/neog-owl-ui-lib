@@ -2,6 +2,7 @@
     position: fixed;
     bottom: 1rem;
     left: 1rem;
+    z-index: 1;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 20%;
