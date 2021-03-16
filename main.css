@@ -7,12 +7,16 @@
 @import url('/components/button/btn-float.css');
 @import url('/components/avatar/avatar-badge-active.css');
 @import url('/components/avatar/avatar-badge-busy.css');
-
+@import url('/components/card/card.css');
+@import url('/components/button/btn-primary-dark.css');
+@import url('/components/avatar/avatar-badge-neutral.css');
 :root{
     --primary-color : rgb(10, 25, 47) ;
     --secondary-color: #BFDBFE;
-    /* --secondary-color: #FEF3C7; */
     /* --secondary-color: #EFF6FF; */
+    /* --secondary-color: #DBEAFE; */
+    --grey50 : #F9FAFB;
+    --grey200 : #E5E7EB;
 }
 
 *{
