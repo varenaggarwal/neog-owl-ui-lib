@@ -1,0 +1,16 @@
+.avatar-badge-neutral > img{
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+
+}
+.avatar-badge-neutral > div {
+    position: relative;
+    top: -20%;
+    left: 80%;
+    background-color: orange;
+    width: 15%;
+    height: 15%;
+    clip-path: circle();
+}
