@@ -12,6 +12,7 @@
 @import url('/components/avatar/avatar-badge-neutral.css');
 @import url('/components/card/card-gradient.css');
 @import url('/components/card/card-shadow.css');
+@import url('/components/image/img-responsive.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
