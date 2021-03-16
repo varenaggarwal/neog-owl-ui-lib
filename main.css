@@ -15,6 +15,7 @@
 @import url('/components/image/img-responsive.css');
 @import url('/components/image/img-round.css');
 @import url('/components/input/textbox.css');
+@import url('/components/input/inputbox.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
@@ -35,7 +36,7 @@
 }
 
 .layout{
-    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;

@@ -1,0 +1,14 @@
+.inputbox{
+    background-color: var(--secondary-color-two);
+    margin: 1rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 1rem;
+    place-content: "Err";
+}
+
+.inputbox:focus{
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
