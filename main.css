@@ -11,12 +11,14 @@
 @import url('/components/button/btn-primary-dark.css');
 @import url('/components/avatar/avatar-badge-neutral.css');
 @import url('/components/card/card-gradient.css');
+@import url('/components/card/card-shadow.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
     /* --primary-color : #312E81; */
     --secondary-color: #C7D2FE;
     --secondary-color-two: #EEF2FF;
+    --secondary-color-two-rgb: 238,242,255;
     /* --secondary-color: #EFF6FF; */
     /* --secondary-color: #DBEAFE; */
     --grey50 : #F9FAFB;
