@@ -1,7 +1,7 @@
 .avatar  > img{
     width: 100%;
     height: auto;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
 }
 

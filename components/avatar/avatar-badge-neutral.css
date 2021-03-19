@@ -1,10 +1,3 @@
-.avatar-badge-neutral > img{
-    width: 100%;
-    height: auto;
-    border: 2px solid var(--secondary-color);
-    border-radius: 50%;
-
-}
 .avatar-badge-neutral > div {
     position: relative;
     top: -20%;

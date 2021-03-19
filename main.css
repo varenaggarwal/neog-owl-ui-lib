@@ -37,7 +37,7 @@
 }
 
 .layout{
-    background-color: var(--primary-color);
+    background-color: var(--grey50);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
