@@ -16,6 +16,7 @@
 @import url('/components/image/img-round.css');
 @import url('/components/input/textbox.css');
 @import url('/components/input/inputbox.css');
+@import url('/components/list/list.css');
 
 :root{
     --primary-color : rgb(10, 25, 47) ;
