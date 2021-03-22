@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body-container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "side-menu main main main"
+    "side-menu main main main";
+    grid-gap: 0.1rem;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: var(--grey50); */
+}
+
+.nav{
+    grid-area: nav;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.side-menu{
+    grid-area: side-menu;
+    width: 15vw;
+    border: 1px solid black;
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* position: absolute; */
+}
+.side-menu > ul{
+}
+.main-container{
+    grid-area: main;
+    border: 1px solid black;
+    padding: 1rem;
+}
