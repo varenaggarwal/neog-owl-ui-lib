@@ -11,24 +11,33 @@
     /* background-color: var(--grey50); */
 }
 
-.nav{
+.nav-bar{
     grid-area: nav;
-    border: 1px solid black;
-    padding: 1rem;
 }
+
+.logo-container{
+    width: 10px;
+}
+
 .side-menu{
     grid-area: side-menu;
     width: 15vw;
-    border: 1px solid black;
     padding: 1rem;
     overflow-y: scroll;
     overflow-x: hidden;
-    /* position: absolute; */
 }
-.side-menu > ul{
+.side-menu  a{
+    margin: auto;
 }
 .main-container{
     grid-area: main;
     border: 1px solid black;
     padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+
+
+/* .img-responsive{
+    width: 10px;
+} */
