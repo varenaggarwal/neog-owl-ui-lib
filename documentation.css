@@ -8,7 +8,7 @@
     "side-menu main main main";
     grid-gap: 0.1rem;
     font-family: 'Roboto', sans-serif;
-    /* background-color: var(--grey50); */
+    background-color: var(--secondary-color-two)
 }
 
 .nav-bar{
@@ -16,7 +16,7 @@
 }
 
 .logo-container{
-    width: 10px;
+    width: 2rem;
 }
 
 .side-menu{
