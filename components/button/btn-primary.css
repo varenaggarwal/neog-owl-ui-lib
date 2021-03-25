@@ -1,6 +1,6 @@
 .btn-primary{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color:  var(--primary-color);
+    color: var(--secondary-color-two);
     border-radius: 0.5rem;
     border: 0;
     padding: 1rem 1.5rem;
@@ -8,4 +8,5 @@
     cursor: pointer;
     font-size: large;
     border: 2px solid var(--primary-color);
+    outline: none;
 }

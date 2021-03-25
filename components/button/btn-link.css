@@ -1,20 +1,41 @@
 .btn-link{
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-two);
+    color: var(--primary-color);
     border-radius: 0.5rem;
+    border: 0;
     padding: 1rem 1.5rem;
     margin: 1rem 0.5rem;
-    text-decoration: none;
-    color: var(--primary-color);
+    cursor: pointer;
     font-size: large;
     border: 2px solid var(--primary-color);
+    outline: none;
 }
-.btn-link:hover {
+
+.btn-link:hover{
     background-color: var(--primary-color);
+    color: var(--secondary-color-two);
     border-radius: 0.5rem;
+    border: 0;
     padding: 1rem 1.5rem;
     margin: 1rem 0.5rem;
-    text-decoration: none;
-    color: var(--secondary-color);
+    cursor: pointer;
     font-size: large;
-    border: 2px solid var(--secondary-color);
-  }
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.btn-link a:link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.btn-link a:hover{
+    text-decoration: none;
+    color: var(--secondary-color-two);
+}
+
+.btn-link a:visited {
+    color: var(--grey-50);
+    background-color: transparent;
+    text-decoration: none;
+}

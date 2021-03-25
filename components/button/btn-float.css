@@ -3,7 +3,7 @@
     bottom: 1rem;
     left: 1rem;
     z-index: 1;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-two);
     color: var(--primary-color);
     border-radius: 20%;
     border: 2px solid var(--primary-color);
@@ -19,7 +19,7 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 20%;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--secondary-color-two);
     padding: 1rem 1.5rem;
     cursor: pointer;
     font-size: large;
