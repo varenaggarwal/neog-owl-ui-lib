@@ -28,10 +28,11 @@
 
 .card .new-bar{
     position: absolute;
-    border: solid 1px var(--primary-color);
-    background-color: pink;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: var(--secondary-color-two);
     padding: 0rem 0.5rem;
-    font-style: italic;
+    font-style: bolder;
 }
 
 .card > p{
