@@ -18,6 +18,7 @@
 @import url('/components/input/inputbox.css');
 @import url('/components/list/list.css');
 @import url('/components/list/list-stacked.css');
+@import url('/components/list/list-menu.css');
 @import url('/components/nav/nav-bar.css');
 
 :root{
