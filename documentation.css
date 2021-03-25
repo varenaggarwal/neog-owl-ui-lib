@@ -37,7 +37,6 @@
 }
 .component-container{
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
 }
@@ -47,4 +46,9 @@
     flex-direction: column;
     padding: 1rem;
     margin: auto;
+}
+
+.code-snippet{
+    align-self: center;
+    padding: 1rem;
 }
