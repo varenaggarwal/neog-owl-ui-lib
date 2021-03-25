@@ -1,7 +1,7 @@
 # OWL UI
 A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 
-![Screenshot](./Screenshot.png)
+![Screenshot](./assets/Screenshot.png)
 
 
 ## Remainin Do 
