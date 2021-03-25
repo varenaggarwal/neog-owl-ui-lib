@@ -9,7 +9,6 @@
   margin: 0.5rem auto;
   background-color: var(--primary-color);
   color: var(--secondary-color-two);
-  font-size: large;
   display: flex;
 }
 
