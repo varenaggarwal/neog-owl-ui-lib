@@ -39,3 +39,7 @@
     background-color: transparent;
     text-decoration: none;
 }
+
+.btn-link:active{
+    transform: scaleY(0.95) scaleX(0.95);
+}

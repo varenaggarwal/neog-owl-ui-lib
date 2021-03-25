@@ -10,3 +10,7 @@
     border: 2px solid var(--primary-color);
     outline: none;
 }
+
+.btn-primary:active{
+    transform: scaleY(0.95) scaleX(0.95);
+}

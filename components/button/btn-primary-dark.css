@@ -11,3 +11,8 @@
     outline: none;
     
 }
+
+
+.btn-primary-dark:active{
+    transform: scaleY(0.95) scaleX(0.95);
+}
