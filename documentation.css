@@ -1,58 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.body-container{
-    display: grid;
-    grid-template-areas: 
+.body-container {
+  display: grid;
+  grid-template-areas:
     "nav nav nav nav"
     "side-menu main main main"
     "side-menu main main main";
-    grid-gap: 0.1rem;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--secondary-color-two)
+  grid-gap: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color-two);
 }
 
-.nav-bar{
-    grid-area: nav;
+.nav-bar {
+  grid-area: nav;
 }
 
-.logo-container{
-    width: 2rem;
+.logo-container {
+  width: 2rem;
 }
 
-.side-menu{
-    grid-area: side-menu;
-    width: 15vw;
-    padding: 1rem;
-    overflow-y: scroll;
-    overflow-x: hidden;
+.side-menu {
+  grid-area: side-menu;
+  width: 15vw;
+  padding: 1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.side-menu  a{
-    margin: auto;
+.side-menu a {
+  margin: auto;
 }
-.main-container{
-    grid-area: main;
-    padding: 1rem;
-    overflow-y: scroll;
-    overflow-x: hidden;
+.main-container {
+  grid-area: main;
+  padding: 1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-.component-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-}
-
-.component-section{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    margin: auto;
+.component-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
-.code-snippet{
-    align-self: center;
-    padding: 1rem;
+.component-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
 }
 
-.component-container img{
-    margin-top: 1rem;
+.code-snippet {
+  align-self: center;
+  padding: 1rem;
+}
+
+.component-container img {
+  margin-top: 1rem;
 }

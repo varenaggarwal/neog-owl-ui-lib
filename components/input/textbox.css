@@ -6,6 +6,7 @@
     padding: 1rem;
     border-radius: 1rem;
     outline: none;
+    font-size: medium;
 }
 
 .textbox:focus{
