@@ -12,3 +12,7 @@
     color: var(--secondary-color-two);
 }
 
+.list-stacked a{
+    text-decoration: none;
+}
+
