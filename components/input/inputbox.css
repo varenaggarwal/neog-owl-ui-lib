@@ -1,0 +1,14 @@
+.inputbox{
+    background-color: inherit;
+    border: 2px solid var(--primary-color);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: medium;
+}
+
+.inputbox:focus{
+    box-shadow: 0 8px 16px 0 rgba(var(--black-rgb), 0.2);
+}
+

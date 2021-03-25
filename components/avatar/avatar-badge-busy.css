@@ -1,0 +1,9 @@
+.avatar-badge-busy > div {
+    position: relative;
+    top: -20%;
+    left: 80%;
+    background-color: red;
+    width: 15%;
+    height: 15%;
+    clip-path: circle();
+}

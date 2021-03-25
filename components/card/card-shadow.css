@@ -1,0 +1,7 @@
+.card-shadow{
+    box-shadow: 0 8px 16px 0 rgba(var(--black-rgb),0.2);
+}   
+
+.card-shadow:hover{
+    box-shadow: 0 8px 16px 0 rgba(var(--black-rgb), 0.4);
+}

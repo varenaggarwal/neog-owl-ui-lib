@@ -1,0 +1,18 @@
+.btn-primary-dark{
+    background-color: var(--primary-color);
+    color: var(--secondary-color-two);
+    border-radius: 0.5rem;
+    border: 0;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+    font-size: large;
+    border: 2px solid var(--secondary-color-two);
+    outline: none;
+    
+}
+
+
+.btn-primary-dark:active{
+    transform: scaleY(0.95) scaleX(0.95);
+}
