@@ -52,3 +52,7 @@
     align-self: center;
     padding: 1rem;
 }
+
+.component-container img{
+    margin-top: 1rem;
+}
