@@ -2,7 +2,6 @@
     position: relative;
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between ;

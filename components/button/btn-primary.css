@@ -1,13 +1,13 @@
 .btn-primary{
     background-color:  var(--primary-color);
     color: var(--secondary-color-two);
+    border: 2px solid var(--primary-color);
     border-radius: 0.5rem;
-    border: 0;
-    padding: 1rem 1.5rem;
-    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
     cursor: pointer;
     font-size: large;
-    border: 2px solid var(--primary-color);
+    font-weight: bold;
     outline: none;
 }
 
