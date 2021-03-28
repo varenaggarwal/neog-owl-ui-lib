@@ -34,15 +34,15 @@
 }
 .card .heart {
   position: absolute;
-  padding: 0 0.5rem;
+  padding:  0 0.5rem;
   right: 1rem;
-  color: var(--grey200);
+  color: var(--primary-color);
   background-color: inherit;
   border: 0;
   font-size: x-large;
   outline: none;
 }
-.card .heart .activated {
+.card .heart.heart-activated {
   color: red;
 }
 
