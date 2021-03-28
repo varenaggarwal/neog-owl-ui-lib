@@ -9,8 +9,8 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 
 ## Remaining Tasks 
 
-- Fix the side menu
+- ~Fix the side menu~
 - Input boxes padding
-- Nav Right menu
+- ~Nav Right menu~
 - smooth scrolling
 - toast
