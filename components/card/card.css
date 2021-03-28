@@ -1,43 +1,55 @@
-.card{
-    position: relative;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between ;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 0.5rem;
-    background-color: inherit;
-    overflow: hidden;
+.card {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  background-color: inherit;
+  overflow: hidden;
 }
 
-.card .cross{
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0.2rem 0.5rem;
-    background-color: inherit;
-    border: 2px solid var(--primary-color);
-    border: 0;
-    border-radius: 0.3rem;
-    color: var(--primary-color);
-    font-weight: bolder;
+.card .cross {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.2rem 0.5rem;
+  background-color: inherit;
+  border: 2px solid var(--primary-color);
+  border: 0;
+  border-radius: 0.3rem;
+  color: var(--primary-color);
+  font-weight: bolder;
 }
 
-.card .new-bar{
-    position: absolute;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    color: var(--secondary-color-two);
-    padding: 0rem 0.5rem;
-    font-style: bolder;
+.card .new-bar {
+  position: absolute;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: var(--secondary-color-two);
+  padding: 0rem 0.5rem;
+  font-style: bolder;
+}
+.card .heart {
+  position: absolute;
+  padding: 0 0.5rem;
+  right: 1rem;
+  color: var(--grey200);
+  background-color: inherit;
+  border: 0;
+  font-size: x-large;
+  outline: none;
+}
+.card .heart .activated {
+  color: red;
 }
 
-.card > p{
-    flex-grow: 1;
+.card > p {
+  flex-grow: 1;
 }
 
-.card + .border{
-    align-self: flex-end;
+.card + .border {
+  align-self: flex-end;
 }
