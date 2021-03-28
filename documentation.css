@@ -23,8 +23,10 @@
   grid-area: side-menu;
   width: 15vw;
   padding: 1rem;
-  /* overflow-y: scroll;
-  overflow-x: hidden; */
+  position: sticky;
+  top: 4rem;
+  height: 100vh;
+  overflow-y: scroll;
 }
 .side-menu a {
   margin: auto;
