@@ -21,6 +21,7 @@
 @import url("/components/list/list-stacked.css");
 @import url("/components/list/list-menu.css");
 @import url("/components/nav/nav-bar.css");
+@import url("/components/nav/nav-bar-shadow.css");
 
 :root {
   --primary-color: #0a192f;
