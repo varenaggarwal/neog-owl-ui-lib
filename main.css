@@ -58,3 +58,11 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
 }
+
+.display-none{
+  display: none;
+}
+
+.visibility-hidden {
+  visibility:hidden;
+}
