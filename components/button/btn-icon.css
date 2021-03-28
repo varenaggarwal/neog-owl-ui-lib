@@ -1,0 +1,22 @@
+.btn-icon {
+    color: var(--secondary-color-two);
+    background-color: inherit;
+    border: 0;
+    font-size: x-large;
+    outline: none;
+    margin-left: 1rem;
+  }
+
+.btn-icon .badge{
+    position: relative;
+    top: -20%;
+    left: 80%;
+    background-color: red;
+    border: 2px solid #fff;
+    width: 15%;
+    height: 15%;
+    /* clip-path: circle(); */
+    border-radius: 50%;
+    padding  : 0.5rem;
+    font-size: 0.8em;
+}

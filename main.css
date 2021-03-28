@@ -1,48 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("/components/avatar/avatar.css");
+@import url("/components/alert/alert.css");
+@import url("/components/button/btn-primary.css");
+@import url("/components/button/btn-secondary.css");
+@import url("/components/button/btn-link.css");
+@import url("/components/button/btn-float.css");
+@import url("/components/button/btn-icon.css");
+@import url("/components/avatar/avatar-badge-active.css");
+@import url("/components/avatar/avatar-badge-busy.css");
+@import url("/components/card/card.css");
+@import url("/components/button/btn-primary-dark.css");
+@import url("/components/avatar/avatar-badge-neutral.css");
+@import url("/components/card/card-gradient.css");
+@import url("/components/card/card-shadow.css");
+@import url("/components/image/img-responsive.css");
+@import url("/components/image/img-round.css");
+@import url("/components/input/textbox.css");
+@import url("/components/input/inputbox.css");
+@import url("/components/list/list.css");
+@import url("/components/list/list-stacked.css");
+@import url("/components/list/list-menu.css");
+@import url("/components/nav/nav-bar.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@import url('/components/avatar/avatar.css');
-@import url('/components/alert/alert.css');
-@import url('/components/button/btn-primary.css');
-@import url('/components/button/btn-secondary.css');
-@import url('/components/button/btn-link.css');
-@import url('/components/button/btn-float.css');
-@import url('/components/avatar/avatar-badge-active.css');
-@import url('/components/avatar/avatar-badge-busy.css');
-@import url('/components/card/card.css');
-@import url('/components/button/btn-primary-dark.css');
-@import url('/components/avatar/avatar-badge-neutral.css');
-@import url('/components/card/card-gradient.css');
-@import url('/components/card/card-shadow.css');
-@import url('/components/image/img-responsive.css');
-@import url('/components/image/img-round.css');
-@import url('/components/input/textbox.css');
-@import url('/components/input/inputbox.css');
-@import url('/components/list/list.css');
-@import url('/components/list/list-stacked.css');
-@import url('/components/list/list-menu.css');
-@import url('/components/nav/nav-bar.css');
-
-:root{
-    --primary-color : #0A192F;
-    --secondary-color: #C7D2FE;
-    --secondary-color-two: #EEF2FF;
-    --secondary-color-two-rgb: 238,242,255;
-    --grey50 : #F9FAFB;
-    --grey200 : #E5E7EB;
-    --black-rgb : 0,0,0;
-    --z-index-max : 10;
-    --padding-1rem : 1rem;
+:root {
+  --primary-color: #0a192f;
+  --secondary-color: #c7d2fe;
+  --secondary-color-two: #eef2ff;
+  --secondary-color-two-rgb: 238, 242, 255;
+  --grey50: #f9fafb;
+  --grey200: #e5e7eb;
+  --black-rgb: 0, 0, 0;
+  --z-index-max: 10;
+  --padding-1rem: 1rem;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
-.layout{
-    background-color: var(--grey50);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+.layout {
+  background-color: var(--grey50);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
