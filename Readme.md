@@ -6,8 +6,7 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 
 ![Screenshot](./assets/Screenshot.png)
 
-
-## Remaining Tasks 
+## Remaining Tasks
 
 - ~Fix the side menu~
 - ~Nav Right menu~
@@ -15,3 +14,4 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - Add Badges
 - Input boxes padding
 - toast
+- BEM
