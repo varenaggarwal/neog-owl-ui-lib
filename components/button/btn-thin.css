@@ -1,0 +1,6 @@
+.btn-thin {
+    background-color:  var(--primary-color);
+    color: var(--secondary-color-two);
+    border: 0;
+    outline: none;
+}
