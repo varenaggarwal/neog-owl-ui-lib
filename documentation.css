@@ -48,6 +48,12 @@
   gap: 1rem;
 }
 
+.component-container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .component-section {
   display: flex;
   flex-direction: column;
