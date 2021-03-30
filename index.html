@@ -15,302 +15,307 @@
     <link rel="stylesheet" href="./main.css" />
     <link rel="icon" href="./assets/owl.png" type="image/x-icon" />
   </head>
-  <body class="body-container">
-    <nav class="nav-bar">
-      <div class="brand-container">
-        <div class="logo-container">
-          <img
-            loading="lazy"
-            class="img-responsive"
-            src="./assets/owl.png"
-            alt="Logo"
-          />
-        </div>
-        <h1>Owl UI</h1>
-      </div>
-    </nav>
-    <div class="side-menu list-menu">
-      <ul>
-        <li><a href="#avatar">Avatar</a></li>
-        <li><a href="#buttons">Button</a></li>
-        <li><a href="#badges">Badges</a></li>
-        <li><a href="#cards">Cards</a></li>
-        <li><a href="#images">Images</a></li>
-        <li><a href="#inputs">Inputs</a></li>
-        <li><a href="#lists">Lists</a></li>
-        <li><a href="#navbar">Navbar</a></li>
-      </ul>
-    </div>
-    <div class="main-container">
-      <section class="component-section card card-border">
-        <h2>Get Started</h2>
-        <h3>Add the CSS:</h3>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fowlui.netlify.app%252Fmain.css%2522%2520%252F%253E"
-          style="
-            width: 610px;
-            height: 93px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section class="component-section card card-border" id="avatar">
-        <h2>Avatar</h2>
-        <div class="component-container">
-          <div class="avatar">
-            <img src="./assets/profile.jpg" />
-          </div>
-          <div class="avatar avatar-badge-active">
-            <img src="./assets/profile.jpg" />
-            <div></div>
-          </div>
-          <div class="avatar avatar-badge-busy">
-            <img src="./assets/profile.jpg" />
-            <div></div>
-          </div>
-          <div class="avatar avatar-badge-neutral">
-            <img src="./assets/profile.jpg" />
-            <div></div>
-          </div>
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-active%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-busy%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-neutral%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
-          style="
-            width: 384px;
-            height: 310px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section class="component-section card card-border" id="buttons">
-        <h2>Buttons</h2>
-        <div class="component-container">
-          <button class="btn-primary">Primary Button</button>
-          <button class="btn-secondary">Secondary Button</button>
-          <button class="btn-primary btn-thin">Thin Button</button>
-          <button class="btn-link"><a href="#">Link</a></button>
-          <button class="btn-primary-dark">
-            <i class="fa fa-bars"></i> Menu
-          </button>
-          <button class="btn-link"><i class="fa fa-bars"></i> Menu</button>
-          <button class="btn-float"><i class="fa fa-home"></i></button>
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%2520Home%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary-dark%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%2520Menu%250A%2509%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-link%2522%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%2520Menu%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-float%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
-          style="
-            width: 645px;
-            height: 222px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section class="component-section card card-border">
-        <h2>Badges</h2>
-        <div class="component-container">
-          <button class="btn-icon">
-            <i class="fas fa-cart-plus"></i>
-            <span class="badge"> 7 </span>
-          </button>
-          <div class="lds-roller">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <div class="lds-ripple">
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-      </section>
-      <section id="cards" class="component-section card card-border">
-        <h2>Cards</h2>
-        <div class="component-container">
-          <div class="card card-border">
-            <div class="new-bar">NEW</div>
-            <button class="cross"><i class="fas fa-times"></i></button>
-            <img src="https://via.placeholder.com/150" />
-            <h2>This is heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-              provident. Maiores sunt assumenda veritatis quae sit laudantium
-              dignissimos eaque quibusdam! Ab animi deleniti ducimus molestias
-              eius sit expedita voluptas voluptatum.
-            </p>
-            <button class="btn-primary">Primary Button</button>
-          </div>
-          <div class="card card-border">
-            <h2>This is heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-              provident. Maiores sunt assumenda veritatis quae sit laudantium
-              dignissimos eaque quibusdam! Ab animi deleniti ducimus molestias
-              eius sit expedita voluptas voluptatum.
-            </p>
-          </div>
-          <div class="card card-shadow">
-            <h2>Shadow Card</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-              provident. Maiores sunt assumenda veritatis quae sit laudantium
-              dignissimos eaque quibusdam! Ab animi deleniti ducimus molestias
-              eius sit expedita voluptas voluptatum.
-            </p>
-          </div>
-          <div class="card card-gradient">
-            <h2>This is heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-              provident. Maiores sunt assumenda veritatis quae sit laudantium
-              dignissimos eaque quibusdam! Ab animi deleniti ducimus molestias
-              eius sit expedita voluptas voluptatum.
-            </p>
-          </div>
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522new-bar%2522%253ENEW%253C%252Fdiv%253E%250A%2509%253Cbutton%2520class%253D%2522cross%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2509%253Ch2%253EThis%2520is%2520heading%253C%252Fh2%253E%250A%2509%253Cp%253ELorem...%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-gradient%2522%253E%250A%2509%253Ch2%253EThis%2520is%2520heading%253C%252Fh2%253E%250A%2509%253Cp%253E%250A%2509%2509Lorem..%250A%2509%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-          style="
-            width: 569px;
-            height: 399px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section id="images" class="component-section card card-border">
-        <h2>Images</h2>
-        <div class="component-container image">
-          <img
-            class="img-responsive img-round"
-            src="https://pbs.twimg.com/profile_images/1354479643882004483/Btnfm47p_400x400.jpg"
-          />
-          <img
-            class="img-responsive"
-            src="https://pbs.twimg.com/profile_images/1354479643882004483/Btnfm47p_400x400.jpg"
-          />
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fimage-file.jpg%2522%2520%252F%253E%250A%2520%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522.%252Fimage-file.jpg%2522%2520%252F%253E"
-          style="
-            width: 575px;
-            height: 150px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section id="inputs" class="component-section card card-border">
-        <h2>Inputs</h2>
-        <div class="component-container">
-          <textarea
-            class="textbox"
-            placeholder="Enter the text here"
-          ></textarea>
-          <input class="inputbox" />
-          <input type="number" class="inputbox" />
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Ctextarea%2520class%253D%2522textbox%2522%253EEnter%253C%252Ftextarea%253E%250A%2509%253Cinput%2520class%253D%2522inputbox%2522%2520%252F%253E%250A%2509%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522inputbox%2522%2520%252F%253E"
-          style="
-            width: 426px;
-            height: 140px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section id="lists" class="component-section card card-border">
-        <h2>Lists</h2>
-        <div class="component-container">
-          <div class="card card-gradient list">
-            <ul>
-              <li><h2>Home</h2></li>
-              <li><h2>Products</h2></li>
-              <li><h2>About</h2></li>
-              <li><h2>Contact us</h2></li>
-            </ul>
-          </div>
-          <div class="card list-stacked">
-            <ul>
-              <li><h2>Home</h2></li>
-              <li><h2>Products</h2></li>
-              <li><h2>About</h2></li>
-              <li><h2>Contact us</h2></li>
-            </ul>
-          </div>
-        </div>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522component-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2520card-gradient%2520list%2522%253E%250A%2509%253Cul%253E%250A%2509%2509%253Cli%253E%253Ch2%253EHome%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EProducts%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EAbout%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EContact%2520us%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EHome%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EProducts%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EAbout%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EContact%2520us%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%2509%253C%252Fdiv%253E"
-          style="
-            width: 384px;
-            height: 389px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
-      <section id="navbar" class="component-section card card-border">
-        <h2>Navbar</h2>
-        <nav class="nav-bar">
+  <body>
+    <div class="body-container">
+      <nav class="nav-bar">
+        <div class="brand-container">
           <div class="logo-container">
             <img
+              alt="Logo"
               loading="lazy"
               class="img-responsive"
               src="./assets/owl.png"
               alt="Logo"
             />
           </div>
-          <a><h1>Owl UI</h1></a>
-        </nav>
-        <iframe
-          class="code-snippet"
-          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522logo-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fowl.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ca%253E%253Ch1%253EOwl%2520UI%253C%252Fh1%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E"
-          style="
-            width: 308px;
-            height: 278px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-      </section>
+          <h1>Owl UI</h1>
+        </div>
+      </nav>
+      <div class="side-menu list-menu">
+        <ul>
+          <li><a href="#avatar">Avatar</a></li>
+          <li><a href="#buttons">Button</a></li>
+          <li><a href="#badges">Badges</a></li>
+          <li><a href="#cards">Cards</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#inputs">Inputs</a></li>
+          <li><a href="#lists">Lists</a></li>
+          <li><a href="#navbar">Navbar</a></li>
+        </ul>
+      </div>
+      <div class="main-container">
+        <section class="component-section card card-border">
+          <h2>Get Started</h2>
+          <h3>Add the CSS:</h3>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fowlui.netlify.app%252Fmain.css%2522%2520%252F%253E"
+            style="
+              width: 610px;
+              height: 93px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section class="component-section card card-border" id="avatar">
+          <h2>Avatar</h2>
+          <div class="component-container">
+            <div class="avatar">
+              <img alt="profile" src="./assets/profile.jpg" />
+            </div>
+            <div class="avatar avatar-badge-active">
+              <img alt="profile" src="./assets/profile.jpg" />
+              <div></div>
+            </div>
+            <div class="avatar avatar-badge-busy">
+              <img alt="profile" src="./assets/profile.jpg" />
+              <div></div>
+            </div>
+            <div class="avatar avatar-badge-neutral">
+              <img alt="profile" src="./assets/profile.jpg" />
+              <div></div>
+            </div>
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-active%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-busy%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-badge-neutral%2522%253E%250A%2509%253Cimg%2520src%253D%2522.%252FbnLMh7Qx_400x400.jpg%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 384px;
+              height: 310px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section class="component-section card card-border" id="buttons">
+          <h2>Buttons</h2>
+          <div class="component-container">
+            <button class="btn-primary">Primary Button</button>
+            <button class="btn-secondary">Secondary Button</button>
+            <button class="btn-primary btn-thin">Thin Button</button>
+            <button class="btn-link"><a href="#">Link</a></button>
+            <button class="btn-primary-dark">
+              <i class="fa fa-bars"></i> Menu
+            </button>
+            <button class="btn-link"><i class="fa fa-bars"></i> Menu</button>
+            <button class="btn-float"><i class="fa fa-home"></i></button>
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%2520Home%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary-dark%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%2520Menu%250A%2509%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-link%2522%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%2520Menu%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn-float%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+            style="
+              width: 645px;
+              height: 222px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section class="component-section card card-border">
+          <h2>Badges</h2>
+          <div class="component-container">
+            <button class="btn-icon">
+              <i class="fas fa-cart-plus"></i>
+              <span class="badge"> 7 </span>
+            </button>
+            <div class="lds-roller">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="lds-ripple">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </section>
+        <section id="cards" class="component-section card card-border">
+          <h2>Cards</h2>
+          <div class="component-container">
+            <div class="card card-border">
+              <div class="new-bar">NEW</div>
+              <button class="cross"><i class="fas fa-times"></i></button>
+              <img alt="placeholder" src="https://via.placeholder.com/150" />
+              <h2>This is heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, provident. Maiores sunt assumenda veritatis quae sit
+                laudantium dignissimos eaque quibusdam! Ab animi deleniti
+                ducimus molestias eius sit expedita voluptas voluptatum.
+              </p>
+              <button class="btn-primary">Primary Button</button>
+            </div>
+            <div class="card card-border">
+              <h2>This is heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, provident. Maiores sunt assumenda veritatis quae sit
+                laudantium dignissimos eaque quibusdam! Ab animi deleniti
+                ducimus molestias eius sit expedita voluptas voluptatum.
+              </p>
+            </div>
+            <div class="card card-shadow">
+              <h2>Shadow Card</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, provident. Maiores sunt assumenda veritatis quae sit
+                laudantium dignissimos eaque quibusdam! Ab animi deleniti
+                ducimus molestias eius sit expedita voluptas voluptatum.
+              </p>
+            </div>
+            <div class="card card-gradient">
+              <h2>This is heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, provident. Maiores sunt assumenda veritatis quae sit
+                laudantium dignissimos eaque quibusdam! Ab animi deleniti
+                ducimus molestias eius sit expedita voluptas voluptatum.
+              </p>
+            </div>
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522new-bar%2522%253ENEW%253C%252Fdiv%253E%250A%2509%253Cbutton%2520class%253D%2522cross%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2509%253Ch2%253EThis%2520is%2520heading%253C%252Fh2%253E%250A%2509%253Cp%253ELorem...%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522btn-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522card%2520card-gradient%2522%253E%250A%2509%253Ch2%253EThis%2520is%2520heading%253C%252Fh2%253E%250A%2509%253Cp%253E%250A%2509%2509Lorem..%250A%2509%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 399px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="images" class="component-section card card-border">
+          <h2>Images</h2>
+          <div class="component-container image">
+            <img
+              alt="Twitter Logo"
+              class="img-responsive img-round"
+              src="https://pbs.twimg.com/profile_images/1354479643882004483/Btnfm47p_400x400.jpg"
+            />
+            <img
+              alt="Twitter Logo"
+              class="img-responsive"
+              src="https://pbs.twimg.com/profile_images/1354479643882004483/Btnfm47p_400x400.jpg"
+            />
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522.%252Fimage-file.jpg%2522%2520%252F%253E%250A%2520%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522.%252Fimage-file.jpg%2522%2520%252F%253E"
+            style="
+              width: 575px;
+              height: 150px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="inputs" class="component-section card card-border">
+          <h2>Inputs</h2>
+          <div class="component-container">
+            <textarea
+              class="textbox"
+              placeholder="Enter the text here"
+            ></textarea>
+            <input class="inputbox" />
+            <input type="number" class="inputbox" />
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Ctextarea%2520class%253D%2522textbox%2522%253EEnter%253C%252Ftextarea%253E%250A%2509%253Cinput%2520class%253D%2522inputbox%2522%2520%252F%253E%250A%2509%253Cinput%2520type%253D%2522number%2522%2520class%253D%2522inputbox%2522%2520%252F%253E"
+            style="
+              width: 426px;
+              height: 140px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="lists" class="component-section card card-border">
+          <h2>Lists</h2>
+          <div class="component-container">
+            <div class="card card-gradient list">
+              <ul>
+                <li><h2>Home</h2></li>
+                <li><h2>Products</h2></li>
+                <li><h2>About</h2></li>
+                <li><h2>Contact us</h2></li>
+              </ul>
+            </div>
+            <div class="card list-stacked">
+              <ul>
+                <li><h2>Home</h2></li>
+                <li><h2>Products</h2></li>
+                <li><h2>About</h2></li>
+                <li><h2>Contact us</h2></li>
+              </ul>
+            </div>
+          </div>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522component-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2520card-gradient%2520list%2522%253E%250A%2509%253Cul%253E%250A%2509%2509%253Cli%253E%253Ch2%253EHome%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EProducts%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EAbout%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%2509%253Cli%253E%253Ch2%253EContact%2520us%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EHome%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EProducts%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EAbout%253C%252Fh2%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ch2%253EContact%2520us%253C%252Fh2%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%2509%253C%252Fdiv%253E"
+            style="
+              width: 384px;
+              height: 389px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+        <section id="navbar" class="component-section card card-border">
+          <h2>Navbar</h2>
+          <nav class="nav-bar">
+            <div class="logo-container">
+              <img
+                loading="lazy"
+                class="img-responsive"
+                src="./assets/owl.png"
+                alt="Logo"
+              />
+            </div>
+            <a><h1>Owl UI</h1></a>
+          </nav>
+          <iframe
+            class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav-bar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522logo-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fowl.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Logo%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ca%253E%253Ch1%253EOwl%2520UI%253C%252Fh1%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E"
+            style="
+              width: 308px;
+              height: 278px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+      </div>
     </div>
   </body>
 </html>
