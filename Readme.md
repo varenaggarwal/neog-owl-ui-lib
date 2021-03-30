@@ -11,7 +11,12 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - ~Fix the side menu~
 - ~Nav Right menu~
 - ~smooth scrolling~
-- Add Badges
+- ~Add Badges~
+- ~Flex container~
+- Fixes
+- Lists
 - Input boxes padding
 - toast
+- Alerts
+- Simplified Grids
 - BEM
