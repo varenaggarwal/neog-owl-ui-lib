@@ -30,6 +30,7 @@
 /* @import url("/components/scroll/scroll-bar.css"); */
 @import url("/components/scroll/scroll-behaviour.css");
 @import url("/components/button/btn-thin.css");
+@import url("/components/badge/badge.css");
 
 :root {
   --primary-color: #0a192f;

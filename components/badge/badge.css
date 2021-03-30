@@ -1,0 +1,10 @@
+.badge {
+  position: relative;
+  top: -1rem;
+  left: -0.3rem;
+  background-color: tomato;
+  border: 2px solid var(--secondary-color-two);
+  border-radius: 50%;
+  padding: 0 0.3rem;
+  font-size: 0.5em;
+}
