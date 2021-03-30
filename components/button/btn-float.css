@@ -1,7 +1,7 @@
 .btn-float {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 0.1rem;
+  right: 0.1rem;
   z-index: 1;
   display: flex;
   justify-content: center;

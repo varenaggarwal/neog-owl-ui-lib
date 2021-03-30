@@ -27,7 +27,7 @@
 @import url("/components/loading/spinner.css");
 @import url("/components/loading/ripple.css");
 @import url("/components/loading/splash-screen.css");
-/* @import url("/components/scroll/scroll-bar.css"); */
+@import url("/components/scroll/scroll-bar.css");
 @import url("/components/scroll/scroll-behaviour.css");
 @import url("/components/button/btn-thin.css");
 @import url("/components/badge/badge.css");
