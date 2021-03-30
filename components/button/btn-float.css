@@ -1,7 +1,10 @@
 .btn-float {
   position: fixed;
   bottom: 1rem;
-  left: 1rem;
+  right: 1rem;
   z-index: 1;
-  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

@@ -32,6 +32,7 @@
 @import url("/components/button/btn-thin.css");
 @import url("/components/badge/badge.css");
 @import url("/components/badge/badge-container.css");
+@import url("/components/links/link-clean.css");
 
 :root {
   --primary-color: #0a192f;
