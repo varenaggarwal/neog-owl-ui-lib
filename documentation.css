@@ -3,9 +3,8 @@
 .body-container {
   display: grid;
   grid-template-areas:
-    "nav nav nav nav"
-    "side-menu main main main"
-    "side-menu main main main";
+    "nav nav"
+    "side-menu main ";
   grid-gap: 0.1rem;
   font-family: "Roboto", sans-serif;
   background-color: var(--secondary-color-two);
@@ -29,10 +28,11 @@
   width: 15vw;
   padding: 1rem;
   position: sticky;
-  top: 4rem;
-  height: 100vh;
-  overflow-y: scroll;
+  top: 4.5rem;
+  height: calc(100vh - 4.5rem);
+  overflow-y: auto;
 }
+
 .side-menu a {
   margin: auto;
 }
