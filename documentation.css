@@ -19,6 +19,11 @@
   width: 2rem;
 }
 
+.brand-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .side-menu {
   grid-area: side-menu;
   width: 15vw;
