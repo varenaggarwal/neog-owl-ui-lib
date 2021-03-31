@@ -13,7 +13,7 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - ~smooth scrolling~
 - ~Add Badges~
 - ~Flex container~
-- Fixes
+- ~Fixes~
 - Lists
 - Input boxes padding
 - toast
