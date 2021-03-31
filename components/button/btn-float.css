@@ -1,31 +1,10 @@
-.btn-float{
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-    z-index: 1;
-    background-color: var(--secondary-color-two);
-    color: var(--primary-color);
-    border-radius: 20%;
-    border: 2px solid var(--primary-color);
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    font-size: large;
-    outline: none;
-}
-
-.btn-float:hover{
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-    background-color: var(--primary-color);
-    color: var(--secondary-color-two);
-    border-radius: 20%;
-    border: 2px solid var(--secondary-color-two);
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    font-size: large;
-}
-
-.btn-float:active{
-    transform: scaleY(0.95) scaleX(0.95);
+.btn-float {
+  position: fixed;
+  bottom: 0.1rem;
+  right: 0.1rem;
+  z-index: var(--z-index-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

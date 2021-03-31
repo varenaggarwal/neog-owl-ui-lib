@@ -6,11 +6,17 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 
 ![Screenshot](./assets/Screenshot.png)
 
+## Remaining Tasks
 
-## Remaining Tasks 
-
-- Fix the side menu
-- Input boxes padding
-- Nav Right menu
-- smooth scrolling
+- ~Fix the side menu~
+- ~Nav Right menu~
+- ~smooth scrolling~
+- ~Add Badges~
+- ~Flex container~
+- ~Fixes~
+- ~Lists~
+- Inputs
 - toast
+- Alerts
+- Simplified Grids
+- Typography

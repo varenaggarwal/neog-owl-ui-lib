@@ -1,16 +1,4 @@
-.btn-primary{
-    background-color:  var(--primary-color);
-    color: var(--secondary-color-two);
-    border-radius: 0.5rem;
-    border: 0;
-    padding: 1rem 1.5rem;
-    margin: 1rem 0.5rem;
-    cursor: pointer;
-    font-size: large;
-    border: 2px solid var(--primary-color);
-    outline: none;
-}
-
-.btn-primary:active{
-    transform: scaleY(0.95) scaleX(0.95);
+.btn-primary {
+  font-size: large;
+  font-weight: bold;
 }

@@ -1,9 +1,3 @@
 .avatar-badge-neutral > div {
-    position: relative;
-    top: -20%;
-    left: 80%;
-    background-color: orange;
-    width: 15%;
-    height: 15%;
-    clip-path: circle();
+  background-color: orange;
 }
