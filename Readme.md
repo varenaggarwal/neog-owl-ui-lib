@@ -14,9 +14,8 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - ~Add Badges~
 - ~Flex container~
 - ~Fixes~
-- Lists
-- Input boxes padding
+- ~Lists~
+- Inputs
 - toast
 - Alerts
 - Simplified Grids
-- BEM
