@@ -1,8 +1,7 @@
 .badge {
-  position: relative;
-  top: -1rem;
-  left: -0.3rem;
-  /* position: absolute; */
+  top: -30%;
+  left: 70%;
+  position: absolute;
   color: var(--secondary-color-two);
   background-color: tomato;
   border: 2px solid var(--secondary-color-two);
