@@ -16,7 +16,7 @@
   right: 0;
   top: 0;
   /* padding: 0.2rem 0.5rem; */
-  margin:1rem;
+  margin: 1rem;
   background-color: inherit;
   border: 2px solid var(--primary-color);
   border: 0;
@@ -36,7 +36,7 @@
 }
 .card .heart {
   position: absolute;
-  padding:  0 0.5rem;
+  padding: 0 0.5rem;
   right: 1rem;
   color: var(--primary-color);
   background-color: inherit;

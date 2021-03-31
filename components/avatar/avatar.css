@@ -1,7 +1,10 @@
-.avatar  > img{
-    width: 100%;
-    height: auto;
-    border: 2px solid var(--primary-color);
-    border-radius: 50%;
+.avatar {
+  position: relative;
 }
-
+.avatar > img {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  max-width: 10rem;
+}

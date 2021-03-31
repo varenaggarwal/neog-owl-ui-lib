@@ -62,3 +62,7 @@
 .visibility-hidden {
   visibility: hidden;
 }
+
+.max-width-20 {
+  max-width: 20rem;
+}
