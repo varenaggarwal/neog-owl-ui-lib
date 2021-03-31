@@ -1,22 +1,16 @@
-.list-menu {
-  list-style: none;
-  color: var(--secondary-color-two);
-}
-
 .list-menu li {
   border-radius: 0.5rem;
   padding: 0.5rem;
-  margin: 0.5rem auto;
+  display: flex;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.list-menu li:active {
+  transform: scaleY(0.95) scaleX(0.95);
+}
+
+.list-menu li:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color-two);
-  display: flex;
-}
-
-.list-menu li:active{
-    transform: scaleY(0.95) scaleX(0.95);
-}
-
-.list-menu a{
-    text-decoration: none;
-    color: var(--secondary-color-two);
 }
