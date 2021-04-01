@@ -11,13 +11,13 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./documentation.css" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./documentation.css" />
     <link rel="icon" href="./assets/owl.png" type="image/x-icon" />
   </head>
   <body>
     <div class="body-container">
-      <nav class="nav-bar nav-bar-shadow">
+      <nav class="nav-bar nav-bar-shadow heading">
         <div class="brand-container">
           <div class="logo-container">
             <img
@@ -30,9 +30,25 @@
           </div>
           <h1>Owl UI</h1>
         </div>
+        <button class="btn btn-thin"><i class="fas fa-bars"></i></button>
       </nav>
       <div class="side-menu">
+        <nav class="nav-bar nav-bar-shadow">
+          <div class="brand-container">
+            <div class="logo-container">
+              <img
+                alt="Logo"
+                loading="lazy"
+                class="img-responsive"
+                src="./assets/owl.png"
+                alt="Logo"
+              />
+            </div>
+            <h1>Owl UI</h1>
+          </div>
+        </nav>
         <ul class="list list-menu">
+          <a href="#start"><li>Get Start</li></a>
           <a href="#avatar"><li>Avatar</li></a>
           <a href="#buttons"><li>Buttons</li></a>
           <a href="#badges"><li>Badges</li></a>
@@ -45,7 +61,7 @@
         </ul>
       </div>
       <div class="main-container">
-        <section class="component-section card card-border">
+        <section id="start" class="component-section card card-border">
           <h2>Get Started</h2>
           <h3>Add the CSS:</h3>
           <iframe

@@ -2,15 +2,14 @@
 
 .body-container {
   display: grid;
-  grid-template-areas:
-    "nav nav"
-    "side-menu main ";
+  grid-template-areas: "side-menu main ";
   grid-gap: 0.1rem;
   font-family: "Roboto", sans-serif;
   background-color: var(--secondary-color-two);
 }
 
-.nav-bar {
+.heading {
+  display: none;
   grid-area: nav;
 }
 
@@ -25,17 +24,21 @@
 
 .side-menu {
   grid-area: side-menu;
-  width: 15vw;
-  padding: 1rem;
+  width: 20vw;
   position: sticky;
-  top: 4.5rem;
-  height: calc(100vh - 4.5rem);
+  top: 0;
+  height: 100vh;
   overflow-y: auto;
 }
 
 .side-menu a {
   margin: auto;
 }
+
+.side-menu ul {
+  padding: 1rem;
+}
+
 .main-container {
   grid-area: main;
   padding: 1rem;
@@ -56,12 +59,12 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: auto;
 }
 
 .code-snippet {
   align-self: center;
   padding: 1rem;
+  overflow: auto;
 }
 
 .component-container img {
@@ -77,5 +80,13 @@
     grid-template-areas:
       "nav"
       "main ";
+  }
+
+  .heading {
+    display: initial;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
