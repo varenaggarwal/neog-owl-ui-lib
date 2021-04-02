@@ -42,7 +42,6 @@
 .main-container {
   grid-area: main;
   padding: 1rem;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 .component-container {
@@ -69,6 +68,11 @@
 
 .component-container img {
   margin-top: 1rem;
+}
+
+.modalNav li {
+  display: grid;
+  place-items: center;
 }
 
 @media only screen and (max-width: 768px) {
