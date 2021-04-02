@@ -63,7 +63,7 @@
 .code-snippet {
   align-self: center;
   padding: 1rem;
-  overflow: auto;
+  overflow-x: scroll;
 }
 
 .component-container img {
@@ -73,6 +73,10 @@
 .modalNav li {
   display: grid;
   place-items: center;
+}
+
+.demo-navbar {
+  z-index: 9;
 }
 
 @media only screen and (max-width: 768px) {

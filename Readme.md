@@ -15,8 +15,10 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - ~Flex container~
 - ~Fixes~
 - ~Lists~
+- Refactoring Modal
 - Inputs
 - toast
 - Alerts
 - Simplified Grids
 - Typography
+- refine Variables like z-indexes
