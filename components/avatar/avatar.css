@@ -1,0 +1,20 @@
+.avatar {
+  position: relative;
+}
+.avatar > img {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  max-width: 10rem;
+}
+
+.avatar > div {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  background-color: var(--primary-color);
+  width: 15%;
+  height: 15%;
+  clip-path: circle();
+}

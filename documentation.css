@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.body-container {
+  display: grid;
+  grid-template-areas: "side-menu main ";
+  grid-gap: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color-two);
+}
+
+.heading {
+  display: none;
+  grid-area: nav;
+}
+
+.logo-container {
+  width: 2rem;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-menu {
+  grid-area: side-menu;
+  width: 20vw;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.side-menu a {
+  margin: auto;
+}
+
+.side-menu ul {
+  padding: 1rem;
+}
+
+.main-container {
+  grid-area: main;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+.component-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.component-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.code-snippet {
+  align-self: center;
+  padding: 1rem;
+  overflow-x: scroll;
+}
+
+.component-container img {
+  margin-top: 1rem;
+}
+
+.modalNav li {
+  display: grid;
+  place-items: center;
+}
+
+.demo-navbar {
+  z-index: 9;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile: */
+  .side-menu {
+    display: none;
+  }
+  .body-container {
+    grid-template-areas:
+      "nav"
+      "main ";
+  }
+
+  .heading {
+    display: initial;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

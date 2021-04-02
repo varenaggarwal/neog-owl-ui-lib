@@ -1,0 +1,16 @@
+.list-menu li {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.list-menu li:active {
+  transform: scaleY(0.95) scaleX(0.95);
+}
+
+.list-menu li:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color-two);
+}

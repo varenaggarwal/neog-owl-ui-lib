@@ -1,0 +1,10 @@
+.nav-bar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color-two);
+  position: sticky;
+  padding: 1rem;
+  top: 0;
+  z-index: var(--z-index-max);
+  display: flex;
+  justify-content: space-between;
+}

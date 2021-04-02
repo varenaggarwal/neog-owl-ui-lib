@@ -1,0 +1,10 @@
+.btn-float {
+  position: fixed;
+  bottom: 0.1rem;
+  right: 0.1rem;
+  z-index: var(--z-index-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
