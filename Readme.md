@@ -15,6 +15,8 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 - ~Flex container~
 - ~Fixes~
 - ~Lists~
+- Fix hamburger Menu close on selections
+- Fix Code snippets visuals esp in mobile
 - Refactoring Modal
 - Inputs
 - toast
