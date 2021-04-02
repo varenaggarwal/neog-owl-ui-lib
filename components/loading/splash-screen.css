@@ -6,7 +6,6 @@
   top: 0;
   left: 0;
   background-color: var(--secondary-color-two);
-  display: flex;
-  align-items: center;
-  overflow: hidden;
+  display: grid;
+  place-items: center;
 }
