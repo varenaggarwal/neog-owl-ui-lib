@@ -61,9 +61,7 @@
 }
 
 .code-snippet {
-  align-self: center;
-  padding: 1rem;
-  overflow-x: scroll;
+  padding-top: 1rem;
 }
 
 .component-container img {
