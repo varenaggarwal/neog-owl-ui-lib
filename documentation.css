@@ -82,6 +82,11 @@
   border-radius: 0 0 0.5rem 0;
 }
 
+/* hide gist footer */
+.gist .gist-meta {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   /* For Mobile: */
   .side-menu {
