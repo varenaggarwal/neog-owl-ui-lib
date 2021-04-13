@@ -61,9 +61,8 @@
 }
 
 .code-snippet {
-  align-self: center;
-  padding: 1rem;
-  overflow-x: scroll;
+  padding-top: 1rem;
+  margin: auto;
 }
 
 .component-container img {
@@ -77,6 +76,15 @@
 
 .demo-navbar {
   z-index: 9;
+}
+
+.side-menu .nav-bar {
+  border-radius: 0 0 0.5rem 0;
+}
+
+/* hide gist footer */
+.gist .gist-meta {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,5 +104,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .code-snippet {
+    padding-top: 1rem;
+    margin: unset;
   }
 }

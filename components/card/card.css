@@ -9,6 +9,7 @@
   border-radius: 0.5rem;
   background-color: inherit;
   overflow: hidden;
+  transition: all 200ms ease-in-out;
 }
 
 .card .cross {
