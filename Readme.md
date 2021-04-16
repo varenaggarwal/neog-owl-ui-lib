@@ -6,21 +6,20 @@ A fast and efficient CSS Library that works! Now zoom past those CSS troubles
 
 ![Screenshot](./assets/Screenshot.png)
 
-## Remaining Tasks
+## Features
 
-- ~Fix the side menu~
-- ~Nav Right menu~
-- ~smooth scrolling~
-- ~Add Badges~
-- ~Flex container~
-- ~Fixes~
-- ~Lists~
-- Fix hamburger Menu close on selections
-- ~Fix Code snippets visuals esp in mobile~
-- Refactoring Modal
-- Inputs
-- toast
-- Alerts
-- Simplified Grids
-- Typography
-- refine Variables like z-indexes
+Custom CSS resuable components for quickly styling up your Web applications!
+
+- Avatars
+- Avatars with status badges
+- Buttons
+- Badges
+- Multiple Cards
+- Responsive Images
+- Inputs Components
+- Links
+- Lists
+- Loaders
+- Modals
+- Navigation Bar
+-
