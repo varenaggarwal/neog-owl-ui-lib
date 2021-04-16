@@ -16,10 +16,13 @@ function load() {
 const modal = document.getElementById("myModal");
 const btn = document.getElementById("myBtn");
 const navItems = document.querySelectorAll(".nav-item");
+const span = document.getElementsByClassName("close")[0];
 
 const closeModal = () => {
   modal.style.display = "none";
 };
+
+span.onclick = closeModal;
 
 btn.onclick = () => {
   modal.style.display = "block";

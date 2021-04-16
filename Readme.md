@@ -22,4 +22,3 @@ Custom CSS resuable components for quickly styling up your Web applications!
 - Loaders
 - Modals
 - Navigation Bar
--
